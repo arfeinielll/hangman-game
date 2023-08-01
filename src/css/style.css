@@ -7,23 +7,23 @@
     font-family: Akzidenz;
     font-weight: 700;
     font-style: normal;
-    src: url('/fonts/akzidenz/AkzidenzGroteskPro-BoldEx.otf') format('opentype');
+    src: url('/fonts/roboto/RobotoMono-Bold.ttf') format('truetype');
   }
   @font-face {
     font-family: Akzidenz;
     font-weight: 500;
     font-style: normal;
-    src: url('/fonts/akzidenz/AkzidenzGroteskPro-Md.otf') format('opentype');
+    src: url('/fonts/roboto/RobotoMono-Medium.ttf') format('truetype');
   }
   @font-face {
     font-family: Akzidenz;
     font-weight: 400;
     font-style: normal;
-    src: url('/fonts/akzidenz/AkzidenzGroteskPro-Regular.otf') format('opentype');
+    src: url('/fonts/roboto/RobotoMono-Regular.ttf') format('truetype');
   }
 
   html {
-    font-family: Akzidenz, sistem-ui, sans-serif;
+    font-family: 'Roboto Mono', sistem-ui, sans-serif;
   }
 }
 
@@ -31,7 +31,7 @@
   #app {
     @apply h-screen flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
   }
-  
+
   .logo {
     @apply text-2xl sm:text-4xl md:text-5xl font-bold;
   }
